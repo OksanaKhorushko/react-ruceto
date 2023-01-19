@@ -1,9 +1,9 @@
-const MyAccount = () => {
+const Dashboard = () => {
   return (
     <div>Dashboard</div>
   );
 };
 
-MyAccount.propTypes = {};
+Dashboard.propTypes = {};
 
-export default MyAccount;
+export default Dashboard;
