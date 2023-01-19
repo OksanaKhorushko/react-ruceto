@@ -1,12 +1,9 @@
-import React from "react"
-import PropTypes from 'prop-types'
-
-const Login = props => {
+const Login = () => {
   return (
     <div>LogIn</div>
-  )
-}
+  );
+};
 
-Login.propTypes = {}
+Login.propTypes = {};
 
-export default Login
+export default Login;

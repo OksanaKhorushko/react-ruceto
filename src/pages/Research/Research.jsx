@@ -1,12 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
-const Research = props => {
+const Research = () => {
   return (
     <div>Research</div>
-  )
-}
+  );
+};
 
-Research.propTypes = {}
+Research.propTypes = {};
 
-export default Research
+export default Research;

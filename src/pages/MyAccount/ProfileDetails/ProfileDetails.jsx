@@ -1,12 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
-const ProfileDetails = props => {
+const ProfileDetails = () => {
   return (
     <div>ProfileDetails</div>
-  )
-}
+  );
+};
 
-ProfileDetails.propTypes = {}
+ProfileDetails.propTypes = {};
 
-export default ProfileDetails
+export default ProfileDetails;

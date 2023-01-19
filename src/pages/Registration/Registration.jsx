@@ -1,12 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
-const Registration = props => {
+const Registration = () => {
   return (
     <div>Registration</div>
-  )
-}
+  );
+};
 
-Registration.propTypes = {}
+Registration.propTypes = {};
 
-export default Registration
+export default Registration;
