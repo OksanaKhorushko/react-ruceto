@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-ruceto/static/css/main.e6c13ad2.css",
+    "main.js": "/react-ruceto/static/js/main.4b07872b.js",
+    "static/js/787.297529bd.chunk.js": "/react-ruceto/static/js/787.297529bd.chunk.js",
+    "index.html": "/react-ruceto/index.html",
+    "main.e6c13ad2.css.map": "/react-ruceto/static/css/main.e6c13ad2.css.map",
+    "main.4b07872b.js.map": "/react-ruceto/static/js/main.4b07872b.js.map",
+    "787.297529bd.chunk.js.map": "/react-ruceto/static/js/787.297529bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.4b07872b.js"
+  ]
+}
