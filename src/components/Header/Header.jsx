@@ -1,12 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
-const Header = props => {
+const Header = () => {
   return (
     <header>Header</header>
-  )
-}
+  );
+};
 
-Header.propTypes = {}
+Header.propTypes = {};
 
-export default Header
+export default Header;

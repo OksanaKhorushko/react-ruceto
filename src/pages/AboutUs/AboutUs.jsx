@@ -1,12 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
-const AboutUs = props => {
+const AboutUs = () => {
   return (
     <div>AboutUs</div>
-  )
-}
+  );
+};
 
-AboutUs.propTypes = {}
+AboutUs.propTypes = {};
 
-export default AboutUs
+export default AboutUs;
