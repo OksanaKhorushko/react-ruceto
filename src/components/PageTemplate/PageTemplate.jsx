@@ -1,14 +1,14 @@
-import { Header, Footer } from '../../components';
+import { Header, Footer } from '../';
 import Home from '../../pages/Home/Home';
 
 const PageTemplate = () => {
-  return <>
+  return <div className="main-wrapper">
     <Header />
     <main>
       <Home />
     </main>
     <Footer />
-  </>;
+  </div>;
 };
 
 PageTemplate.propTypes = {};

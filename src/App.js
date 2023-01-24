@@ -1,4 +1,4 @@
-import { PageTemplate } from './pages';
+import { PageTemplate } from './components';
 
 function App() {
   return <PageTemplate />;
