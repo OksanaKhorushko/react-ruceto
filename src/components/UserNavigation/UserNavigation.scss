@@ -1,0 +1,11 @@
+.user-navigation {
+
+  &__items {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 0 12px;
+  }
+}
