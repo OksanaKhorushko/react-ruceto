@@ -1,0 +1,20 @@
+@import '../../scss/variables';
+
+.navigation {
+  align-items: center;
+  display: flex;
+
+  &-items {
+    display: flex;
+  }
+
+  &-item {
+    padding: 0 15px;
+    opacity: .7;
+
+    &:hover {
+      text-shadow: 0px 0px 5px $color-main;
+      opacity: 1;
+    }
+  }
+}
