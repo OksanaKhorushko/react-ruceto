@@ -35,14 +35,17 @@ p {
 
 button {
     cursor: pointer;
+    color: $color-main;
+    font-family: $font-main;
+    font-size: $font-size-main;
 }
 
 .main-wrapper {
-    padding: 24px 0 40px;
+    padding: 24px 0;
 }
 
 .container {
-  padding: 0 15px;
+  padding: 11px 15px;
   margin: 0 auto;
   max-width: 1140px;
 }
