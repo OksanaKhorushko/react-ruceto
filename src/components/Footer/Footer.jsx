@@ -9,30 +9,30 @@ const Footer = () => {
           <div className="footer__col">
             <Logo />
             <div className="social__media">
-              <ul className="social__media-list">
+              <ul className="social__media-items">
                 <li className="social__media-item">
                   <a>
-                    <Image src={InstaImg} alt="Insta" />
+                    <Image src={InstaImg} alt="Instagram" />
                   </a>
                 </li>
                 <li className="social__media-item">
                   <a>
-                    <Image src={TwitterImg} alt="Tvit" />
+                    <Image src={TwitterImg} alt="Twitter" />
                   </a>
                 </li>
                 <li className="social__media-item">
                   <a>
-                    <Image src={TelegramImg} alt="Tvit" />
+                    <Image src={TelegramImg} alt="Telegram" />
                   </a>
                 </li>
                 <li className="social__media-item">
                   <a>
-                    <Image src={LinkedinImg} alt="Tvit" />
+                    <Image src={LinkedinImg} alt="Linkedin" />
                   </a>
                 </li>
                 <li className="social__media-item">
                   <a>
-                    <Image src={DiscordImg} alt="Tvit" />
+                    <Image src={DiscordImg} alt="Discord" />
                   </a>
                 </li>
               </ul>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           <div className="footer__col">
             <nav className="footer__primary-navigation">
-              <ul className="footer__primary-navigation-list">
+              <ul className="footer__primary-navigation-items">
                 <li className="footer__primary-navigation-item">
                   <a href="#">Home</a>
                 </li>
@@ -69,7 +69,7 @@ const Footer = () => {
             <p>2022 All rights reserved.</p>
           </div>
           <div className="footer__secondary-navigation">
-            <ul className="footer__secondary-navigation-list">
+            <ul className="footer__secondary-navigation-items">
               <li className="footer__secondary-navigation-item">
                 <a>Subscription Terms</a>
               </li>
