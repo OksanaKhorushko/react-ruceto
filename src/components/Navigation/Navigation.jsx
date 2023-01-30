@@ -4,17 +4,17 @@ import './Navigation.scss';
 const Navigation = () => {
   return (
     <nav className="navigation">
-      <ul className="navigation-items">
-        <li className="navigation-item">
+      <ul className="navigation__items">
+        <li className="navigation__item">
           <a href="#">Home</a>
         </li>
-        <li className="navigation-item">
+        <li className="navigation__item">
           <a href="#">Research</a>
         </li>
-        <li className="navigation-item">
+        <li className="navigation__item">
           <a href="#">About Us</a>
         </li>
-        <li className="navigation-item">
+        <li className="navigation__item">
           <a href="#">Help</a>
         </li>
       </ul>

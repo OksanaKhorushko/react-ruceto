@@ -1,0 +1,76 @@
+@import '../../scss/variables';
+
+hr {
+  margin: 40px 0;
+  opacity: .7;
+}
+
+.footer {
+
+  &__primary {
+    display: flex;
+    justify-content: space-between;
+
+    &-navigation {
+
+      &-items {
+        display: flex;
+      }
+
+      &-item {
+        padding: 0 15px;
+        margin-left: 27px;
+      }
+    }
+  }
+
+  &__secondary {
+    display: flex;
+    justify-content: space-between;
+    opacity: .7;
+
+    &-navigation {
+
+      &-items {
+        display: flex;
+      }
+
+      &-item {
+        padding: 0 6px;
+        margin-left: 6px;
+        border-left: 1px solid;
+
+        &:first-child {
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.social__media {
+  margin-top: 24px;
+
+  &-items {
+    display: flex;
+  }
+
+  &-item {
+    margin-right: 16px;
+    opacity: .7;
+  }
+}
+
+.sabscribe {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+
+  & input {
+    border: 1px solid $color-main;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 42px;
+    padding: 10px 16px;
+    margin-right: 16px;
+  }
+}
