@@ -1,5 +1,5 @@
 import './Footer.scss';
-import { Button, DiscordImg, Image, InstaImg, LinkedinImg, Logo, TelegramImg, TwitterImg } from '../';
+import { Button, DiscordImg, Image, InstagramImg, LinkedinImg, Logo, TelegramImg, TwitterImg } from '../';
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
               <ul className="social__media-items">
                 <li className="social__media-item">
                   <a>
-                    <Image src={InstaImg} alt="Instagram" />
+                    <Image src={InstagramImg} alt="Instagram" />
                   </a>
                 </li>
                 <li className="social__media-item">
