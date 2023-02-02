@@ -1,5 +1,5 @@
 import './Footer.scss';
-import { Copyright, FooterMainNavigation, FooterSecondaryNavigation, Logo, Sabscribe, SocialMedia } from '../';
+import { Copyright, FooterMainNavigation, FooterSecondaryNavigation, Logo, Subscribe, SocialMedia } from '../';
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div className="footer__col">
             <FooterMainNavigation />
-            <Sabscribe />
+            <Subscribe />
           </div>
         </div>
         <hr />

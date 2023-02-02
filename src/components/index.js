@@ -9,7 +9,7 @@ import Image from './Image/Image';
 import Icon from './Icon/Icon';
 import SocialMedia from './SocialMedia/SocialMedia';
 import FooterMainNavigation from './Footer/FooterMainNavigation/FooterMainNavigation';
-import Sabscribe from './Sabscribe/Sabscribe';
+import Subscribe from './Subscribe/Subscribe';
 import FooterSecondaryNavigation from './Footer/FooterSecondaryNavigation/FooterSecondaryNavigation';
 import { Copyright } from './Copyright/Copyright';
 
@@ -25,7 +25,7 @@ export {
   Icon,
   SocialMedia,
   FooterMainNavigation,
-  Sabscribe,
+  Subscribe,
   FooterSecondaryNavigation,
   Copyright,
 };
