@@ -1,6 +1,10 @@
 const Home = () => {
   return (
-    <section>Home</section>
+    <section className="Home">
+      <div className="container">
+        Home
+      </div>
+    </section>
   );
 };
 

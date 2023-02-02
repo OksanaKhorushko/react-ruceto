@@ -1,5 +1,5 @@
 import './Footer.scss';
-import { Button, Icon, Logo } from '../';
+import { Copyright, FooterMainNavigation, FooterSecondaryNavigation, Logo, Subscribe, SocialMedia } from '../';
 
 const Footer = () => {
   return (
@@ -8,82 +8,17 @@ const Footer = () => {
         <div className="footer__primary">
           <div className="footer__col">
             <Logo />
-            <div className="social__media">
-              <ul className="social__media-items">
-                <li className="social__media-item">
-                  <a href="#">
-                    <Icon iconName="InstagramIcon" altText="Instagram" />
-                  </a>
-                </li>
-                <li className="social__media-item">
-                  <a href="#">
-                    <Icon iconName="TwitterIcon" altText="Twitter" />
-                  </a>
-                </li>
-                <li className="social__media-item">
-                  <a href="#">
-                    <Icon iconName="TelegramIcon" altText="Telegram" />
-                  </a>
-                </li>
-                <li className="social__media-item">
-                  <a href="#">
-                    <Icon iconName="LinkedinIcon" altText="Linkedin" />
-                  </a>
-                </li>
-                <li className="social__media-item">
-                  <a href="#">
-                    <Icon iconName="DiscordIcon" altText="Discord" />
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <SocialMedia />
           </div>
           <div className="footer__col">
-            <nav className="footer__primary-navigation">
-              <ul className="footer__primary-navigation-items">
-                <li className="footer__primary-navigation-item">
-                  <a href="#">Home</a>
-                </li>
-                <li className="footer__primary-navigation-item">
-                  <a href="#">Research</a>
-                </li>
-                <li className="footer__primary-navigation-item">
-                  <a href="#">About Us</a>
-                </li>
-                <li className="footer__primary-navigation-item">
-                  <a href="#">Help</a>
-                </li>
-              </ul>
-            </nav>
-            <div className="sabscribe">
-              <input placeholder="Email address"></input>
-              <Button href="#">
-                Sabscribe
-              </Button>
-            </div>
+            <FooterMainNavigation />
+            <Subscribe />
           </div>
         </div>
         <hr />
         <div className="footer__secondary">
-          <div className="footer__copyright">
-            <p>2022 All rights reserved.</p>
-          </div>
-          <div className="footer__secondary-navigation">
-            <ul className="footer__secondary-navigation-items">
-              <li className="footer__secondary-navigation-item">
-                <a href="#">Subscription Terms</a>
-              </li>
-              <li className="footer__secondary-navigation-item">
-                <a href="#">Copyright Notice</a>
-              </li>
-              <li className="footer__secondary-navigation-item">
-                <a href="#">Terms of Use</a>
-              </li>
-              <li className="footer__secondary-navigation-item">
-                <a href="#">Legal & Privacy</a>
-              </li>
-            </ul>
-          </div>
+          <Copyright />
+          <FooterSecondaryNavigation />
         </div>
       </div>
     </footer>

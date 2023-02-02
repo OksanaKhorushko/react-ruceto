@@ -1,0 +1,15 @@
+@import '../../scss/variables';
+
+.subscribe {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+
+  & input {
+    border: 1px solid $color-main;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 42px;
+    padding: 10px 16px;
+    margin-right: 16px;
+  }
+}
