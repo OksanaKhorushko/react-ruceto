@@ -1,5 +1,5 @@
 import './Footer.scss';
-import { Button, DiscordImg, Image, InstagramImg, LinkedinImg, Logo, TelegramImg, TwitterImg } from '../';
+import { Button, Icon, Logo } from '../';
 
 const Footer = () => {
   return (
@@ -11,28 +11,28 @@ const Footer = () => {
             <div className="social__media">
               <ul className="social__media-items">
                 <li className="social__media-item">
-                  <a>
-                    <Image src={InstagramImg} alt="Instagram" />
+                  <a href="#">
+                    <Icon iconName="InstagramIcon" altText="Instagram" />
                   </a>
                 </li>
                 <li className="social__media-item">
-                  <a>
-                    <Image src={TwitterImg} alt="Twitter" />
+                  <a href="#">
+                    <Icon iconName="TwitterIcon" altText="Twitter" />
                   </a>
                 </li>
                 <li className="social__media-item">
-                  <a>
-                    <Image src={TelegramImg} alt="Telegram" />
+                  <a href="#">
+                    <Icon iconName="TelegramIcon" altText="Telegram" />
                   </a>
                 </li>
                 <li className="social__media-item">
-                  <a>
-                    <Image src={LinkedinImg} alt="Linkedin" />
+                  <a href="#">
+                    <Icon iconName="LinkedinIcon" altText="Linkedin" />
                   </a>
                 </li>
                 <li className="social__media-item">
-                  <a>
-                    <Image src={DiscordImg} alt="Discord" />
+                  <a href="#">
+                    <Icon iconName="DiscordIcon" altText="Discord" />
                   </a>
                 </li>
               </ul>
@@ -57,7 +57,7 @@ const Footer = () => {
             </nav>
             <div className="sabscribe">
               <input placeholder="Email address"></input>
-              <Button>
+              <Button href="#">
                 Sabscribe
               </Button>
             </div>
@@ -71,16 +71,16 @@ const Footer = () => {
           <div className="footer__secondary-navigation">
             <ul className="footer__secondary-navigation-items">
               <li className="footer__secondary-navigation-item">
-                <a>Subscription Terms</a>
+                <a href="#">Subscription Terms</a>
               </li>
               <li className="footer__secondary-navigation-item">
-                <a>Copyright Notice</a>
+                <a href="#">Copyright Notice</a>
               </li>
               <li className="footer__secondary-navigation-item">
-                <a>Terms of Use</a>
+                <a href="#">Terms of Use</a>
               </li>
               <li className="footer__secondary-navigation-item">
-                <a>Legal & Privacy</a>
+                <a href="#">Legal & Privacy</a>
               </li>
             </ul>
           </div>
