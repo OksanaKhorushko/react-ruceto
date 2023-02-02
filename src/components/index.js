@@ -7,6 +7,11 @@ import Navigation from './Navigation/Navigation';
 import UserNavigation from './UserNavigation/UserNavigation';
 import Image from './Image/Image';
 import Icon from './Icon/Icon';
+import SocialMedia from './SocialMedia/SocialMedia';
+import FooterMainNavigation from './Footer/FooterMainNavigation/FooterMainNavigation';
+import Sabscribe from './Sabscribe/Sabscribe';
+import FooterSecondaryNavigation from './Footer/FooterSecondaryNavigation/FooterSecondaryNavigation';
+import { Copyright } from './Copyright/Copyright';
 
 export {
   Footer,
@@ -18,4 +23,9 @@ export {
   UserNavigation,
   Image,
   Icon,
+  SocialMedia,
+  FooterMainNavigation,
+  Sabscribe,
+  FooterSecondaryNavigation,
+  Copyright,
 };
