@@ -14,6 +14,8 @@ Icon.propTypes = {
     'TelegramIcon',
     'LinkedinIcon',
     'DiscordIcon',
+    'MenuIcon',
+    'ClosingIcon',
   ]).isRequired,
   altText: PropTypes.string.isRequired,
 };

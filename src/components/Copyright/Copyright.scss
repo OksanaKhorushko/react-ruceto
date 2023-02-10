@@ -1,0 +1,10 @@
+@import '../../scss/mixins';
+
+.copyright p {
+  font-size: 14px;
+  line-height: 1.7;
+
+  @include media(mobile) {
+    text-align: center;
+  }
+}

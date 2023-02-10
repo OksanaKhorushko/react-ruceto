@@ -1,3 +1,5 @@
+import './Copyright.scss';
+
 export const Copyright = () => {
   return (
     <div className="copyright">

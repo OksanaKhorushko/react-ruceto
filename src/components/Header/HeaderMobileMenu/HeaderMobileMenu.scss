@@ -1,0 +1,31 @@
+@import '../../../scss/mixins';
+
+.header__mobile-menu {
+  display: none;
+
+  @include media(mobile) {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    // display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 430px;
+    border-radius: 20px;
+    margin-top: -64px;
+    background: rgba(128, 128, 128, 0.1);
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(42.5px);
+  }
+
+  &-navigation-items {
+    margin-top: 64px;
+  }
+
+  &-navigation-item {
+    margin-top: 32px;
+  }
+}
+

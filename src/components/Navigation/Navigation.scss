@@ -1,8 +1,18 @@
 @import '../../scss/variables';
+@import '../../scss/typography/variables';
+@import '../../scss/mixins';
 
 .navigation {
-  align-items: center;
+  font-size: $font-size-main;
+  line-height: $line-height-base;
+  font-weight: 500;
   display: flex;
+  align-items: center;
+
+
+  @include media(mobile) {
+    display: none;
+  }
 
   &__items {
     display: flex;
@@ -13,7 +23,7 @@
     opacity: .7;
 
     &:hover {
-      text-shadow: 0px 0px 5px $color-main;
+      text-shadow: 0 0 5px $color-main;
       opacity: 1;
     }
   }

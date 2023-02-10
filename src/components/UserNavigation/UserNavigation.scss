@@ -1,4 +1,14 @@
+@import '../../scss/mixins';
+@import '../../scss/typography/variables';
+
 .user-navigation {
+  font-size: $font-size-main;
+  line-height: $line-height-base;
+  font-weight: 500;
+
+  @include media(mobile) {
+    display: none;
+  }
 
   &__items {
     display: flex;
@@ -6,6 +16,6 @@
   }
 
   &__item {
-    margin-left: 24px;
+    margin: 0 0 0 24px;
   }
 }
