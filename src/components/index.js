@@ -12,6 +12,7 @@ import FooterMainNavigation from './Footer/FooterMainNavigation/FooterMainNaviga
 import Subscribe from './Subscribe/Subscribe';
 import FooterSecondaryNavigation from './Footer/FooterSecondaryNavigation/FooterSecondaryNavigation';
 import { Copyright } from './Copyright/Copyright';
+import HeaderMobileMenu from './Header/HeaderMobileMenu/HeaderMobileMenu';
 
 export {
   Footer,
@@ -28,4 +29,5 @@ export {
   Subscribe,
   FooterSecondaryNavigation,
   Copyright,
+  HeaderMobileMenu,
 };

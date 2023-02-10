@@ -1,16 +1,45 @@
+@import '../../../scss/mixins';
+@import '../../../scss/typography/variables';
+
 .footer__secondary-navigation {
 
   &-items {
     display: flex;
+
+    @include media(mobile) {
+      flex-wrap: wrap;
+      text-align: center;
+      margin: 7px 0 0 0;
+    }
   }
 
   &-item {
-    padding: 0 6px;
-    margin-left: 6px;
-    border-left: 1px solid;
 
-    &:first-child {
+    @include media(mobile) {
+      width: 50%;
+      margin: 13px 0 0 0;
+    }
+
+    &:first-child a {
       border: none;
+    }
+
+    & a {
+      font-size: 13px;
+      line-height: 16px;
+      font-weight: 700;
+      border-left: solid 1px;
+      padding: 0 0 0 12px;
+      margin: 0 0 0 12px;
+
+      @include media(mobile) {
+        font-size: $font-size-main;
+        line-height: $line-height-base;
+        font-weight: 500;
+        border-left: none;
+        padding: 0;
+        margin: 0;
+      }
     }
   }
 }

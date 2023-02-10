@@ -1,20 +1,61 @@
+@import '../../scss/mixins';
+
 hr {
   margin: 40px 0;
   opacity: .7;
+
+  @include media(mobile) {
+    margin: 24px 0;
+  }
 }
 
 .footer {
+  z-index: 0;
   margin-top: auto;
+  padding: 0 0 29px 0;
+
+  @include media(mobile) {
+    padding: 0 0 89px 0;
+  }
 
   &__primary {
     display: flex;
     justify-content: space-between;
+
+    @include media(mobile) {
+      display: block;
+    }
   }
 
   &__secondary {
     display: flex;
     justify-content: space-between;
     opacity: .7;
+
+    @include media(mobile) {
+      display: block;
+    }
+  }
+
+  &__col {
+    @include media(mobile) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  & .logo,
+  .logo a {
+    width: 160px;
+    height: 40px;
+
+    @include media(mobile) {
+      width: 104px;
+      height: 26px;
+    }
   }
 }
 

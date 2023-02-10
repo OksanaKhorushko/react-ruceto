@@ -1,15 +1,36 @@
 @import '../../scss/variables';
+@import '../../scss/mixins';
 
 .subscribe {
   display: flex;
   justify-content: flex-end;
-  margin-top: 24px;
+  margin: 24px 0 0 0;
+
+  @include media(mobile) {
+    display: block;
+    width: 100%;
+  }
 
   & input {
+    width: 308px;
     border: 1px solid $color-main;
     background: rgba(255, 255, 255, .1);
     border-radius: 42px;
     padding: 10px 16px;
-    margin-right: 16px;
+    margin: 0 16px 0 0;
+
+    @include media(mobile) {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  & .btn {
+    width: 125px;
+
+    @include media(mobile) {
+      width: 100%;
+      margin: 16px 0 0 0;
+    }
   }
 }

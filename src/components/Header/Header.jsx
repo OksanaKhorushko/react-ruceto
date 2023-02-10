@@ -1,5 +1,5 @@
 import './Header.scss';
-import { Logo, Navigation, UserNavigation } from '../';
+import { Button, HeaderMobileMenu, Icon, Logo, Navigation, UserNavigation } from '../';
 
 const Header = () => {
   return (
@@ -8,7 +8,14 @@ const Header = () => {
         <Logo />
         <Navigation />
         <UserNavigation />
+        <div className="header__mobile-menu-btn-wrapper">
+          <Button type="transparent" classes="header__mobile-menu-btn">
+            <Icon iconName="MenuIcon" altText="Menu icon" />
+            {/* <Icon iconName="ClosingIcon" altText="Closing icon" /> */}
+          </Button>
+        </div>
       </div>
+      <HeaderMobileMenu />
     </header>
   );
 };
